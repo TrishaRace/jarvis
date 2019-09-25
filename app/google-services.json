@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "329618185763",
+    "firebase_url": "https://j-a-r-v-i-s-lpwdvr.firebaseio.com",
+    "project_id": "j-a-r-v-i-s-lpwdvr",
+    "storage_bucket": "j-a-r-v-i-s-lpwdvr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329618185763:android:10c3f754e96bc2d9",
+        "android_client_info": {
+          "package_name": "com.carrerap.firebot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329618185763-cc0h6o94164qhnumiu506jsi2j2cbdk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Jl99DfopoV_TzKvLWk5S8qSTzPPdZF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329618185763-cc0h6o94164qhnumiu506jsi2j2cbdk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329618185763:android:9d20b0610be8672f",
+        "android_client_info": {
+          "package_name": "com.carrerap.jarvis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329618185763-cc0h6o94164qhnumiu506jsi2j2cbdk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4Jl99DfopoV_TzKvLWk5S8qSTzPPdZF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329618185763-cc0h6o94164qhnumiu506jsi2j2cbdk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

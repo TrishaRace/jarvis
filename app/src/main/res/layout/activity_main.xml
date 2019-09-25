@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="E.D.I.T.H"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ImageView
+        android:id="@+id/ivPeterParker"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/peter"
+        app:layout_constraintTop_toBottomOf="@id/mbDialog2"
+        app:layout_constraintEnd_toStartOf="@id/tvPeterDialog"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bMicrophone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/microphone_control"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_margin="5dp"
+        android:text="Pruebe a pulsar el micrófono y decir una de estas frases:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+    <TextView
+        android:id="@+id/mbDialog1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Hazme una chuleta del tema 5 de historia"
+        app:layout_constraintBottom_toTopOf="@+id/mbDialog2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explanation"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/title_border"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/mbDialog2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SUDO de hacerme una chuleta del tema 5 de historia"
+        app:layout_constraintBottom_toTopOf="@+id/ivPeterParker"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mbDialog1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/title_border"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:src="@drawable/edith"
+        app:layout_constraintBottom_toTopOf="@+id/bMicrophone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivPeterParker"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeterParker" />
+
+    <Button
+        android:id="@+id/tvPeterDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="SUDO de hacerme una chuleta del tema 5 de historia, ES MAZO LARGO!"
+        app:layout_constraintBottom_toBottomOf="@+id/ivPeterParker"
+        app:layout_constraintTop_toTopOf="@+id/ivPeterParker"
+        app:layout_constraintStart_toEndOf="@id/ivPeterParker"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+
+        />
+
+
+    <Button
+        android:id="@+id/tvEdithDialog"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:text="SUDO de hacerme una chuleta del tema 5 de historia, ES MAZO LARGO!"
+        android:textColor="#ffff"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:visibility="gone"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
